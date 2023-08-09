@@ -49,5 +49,5 @@ jobs:
           #####
           framework: docker
           WORK_ON_CHANGE: false
-          WORKING_DIR: ../docker/
+          WORKING_DIR: ./docker/
           APIGATEWAY_BASE_URL: https://oka9hih9wh.execute-api.us-east-1.amazonaws.com/stage/ci/docker-scan
